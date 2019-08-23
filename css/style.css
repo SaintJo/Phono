@@ -1,4 +1,4 @@
-: root {
+:root {
 	--primary-color: #333;
 	--secondary-color: #444;
 	--overaly-color: rgba(0, 0, 0, 0.7);
@@ -22,7 +22,7 @@ h1, h2, h3, h4 {
 }
 
 a {
-	color: var(--seconary-color);
+	color: #444;
 	text-decoration: none;
 }
 
@@ -98,7 +98,7 @@ img {
 
 .section-b {
 	position: relative;
-	background: url('../img/section-b1.jpg') no-repeat bottom center/cover;
+	background: url('../img/section-b2.jpg') no-repeat bottom center/cover;
 	height: 600px;
 }
 
@@ -117,6 +117,7 @@ img {
 
 .section-b-inner h3 {
 	font-size: 2rem;
+	padding-top: 60px;
 }
 
 .section-b-inner h2 {
